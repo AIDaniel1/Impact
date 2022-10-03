@@ -16,6 +16,9 @@ html{
     font-size: 10px;
     font-family: Arial, Helvetica, sans-serif;
 }
+body{
+    overflow-x: hidden;
+}
 /* Css navbar code start */
 
 /* header{
