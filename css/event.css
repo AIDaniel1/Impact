@@ -17,6 +17,9 @@ html{
     font-size: 10px;
     font-family: Arial, Helvetica, sans-serif;
 }
+body{
+    overflow-x: hidden;
+}
 header{
     background: linear-gradient(rgba(0,0,0,.5),rgba(0,0,0,.5)), url(../img/heroimg.jpg);
     background-position: top;
