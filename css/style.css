@@ -475,6 +475,10 @@ i{
         display: block;
         font-size: 1rem;
     }
+    .book__card .remove{
+        display:none;
+}
+
 }
 @media (min-width:538px){
     #shop-section{
@@ -488,6 +492,8 @@ i{
     .book__card{
         max-width: 799px;
      }
+    .book__card .remove{
+        display:none;
 }
 
 @media (min-width:800px){
