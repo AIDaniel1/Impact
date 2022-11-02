@@ -53,3 +53,28 @@ counters.forEach(counter => {
    }  
    updateCount();
 })
+
+
+// mail codes popup
+    var modal = document.getElementById("newletter-box");
+    var btn = document.getElementById("news-button");
+    var span = document.getElementsByClassName("close")[0];
+    
+    btn.onclick = function(){
+        modal.style.display = "block";
+        console.log(btn)
+    }
+    span.onclick = function() {
+        modal.style.display = "none"
+    }
+    // btn.addEventListener("click", function(){
+    //     model.style.display = "block";
+    // })
+    // span.addEventListener("click", function(){
+    //     model.style.display = "none";
+    // })
+    window.onclick = function(event) {
+        if (event.target == model) {
+            modal.style.display = "none";
+        }
+    }
