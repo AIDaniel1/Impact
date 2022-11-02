@@ -65,7 +65,7 @@ counters.forEach(counter => {
         console.log(btn)
     }
     span.onclick = function() {
-        modal.style.display = "none"
+        modal.style.display = "none";
     }
     // btn.addEventListener("click", function(){
     //     model.style.display = "block";
