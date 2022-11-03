@@ -448,7 +448,7 @@
             once: false,
         });
     </script> 
-      <script src="js/main.js"></script>
+<!--       <script src="js/main.js"></script> -->
     <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
     <script>
      var typed = new Typed(".Sucess", {
@@ -460,6 +460,32 @@
     </script>
     <script type='text/javascript' src='//s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js'></script>
 <script type='text/javascript'>(function($) {window.fnames = new Array(); window.ftypes = new Array();fnames[0]='EMAIL';ftypes[0]='email';fnames[1]='FNAME';ftypes[1]='text';fnames[2]='LNAME';ftypes[2]='text';fnames[3]='ADDRESS';ftypes[3]='address';fnames[4]='PHONE';ftypes[4]='phone';fnames[5]='BIRTHDAY';ftypes[5]='birthday';fnames[6]='MMERGE6';ftypes[6]='radio';}(jQuery));var $mcj = jQuery.noConflict(true);</script>
-</body>
+    <script>
+    // mail codes popup
+    var modal = document.getElementById("newletter-box");
+    var btn = document.getElementById("news-button");
+    var span = document.getElementsByClassName("close")[0];
+    
+    btn.onclick = function(){
+        modal.style.display = "block";
+        console.log(btn)
+    }
+    span.onclick = function() {
+        modal.style.display = "none";
+    }
+    // btn.addEventListener("click", function(){
+    //     model.style.display = "block";
+    // })
+    // span.addEventListener("click", function(){
+    //     model.style.display = "none";
+    // })
+    window.onclick = function(event) {
+        if (event.target == model) {
+            modal.style.display = "none";
+        }
+    }
+
+    </script>
+    </body>
 
 </html>
