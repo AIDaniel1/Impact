@@ -493,6 +493,7 @@ text-align: center;
     padding: 20px;
     border: 1px solid #888;
     width: 80%; /* Could be more or less, depending on screen size */
+    border-radius: 10px;
 }
 .section-five .close {
     color: #aaa;
