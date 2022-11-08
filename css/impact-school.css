@@ -353,9 +353,11 @@ text-align: center;
 
 }
 
-.sectwo-stats {
+ion-icon {
+    color: var(--second-color);
+    font-size: var(--text-font);
+  }
 
-}
 
 .personalized-one {
     margin-top: 1.5rem;
