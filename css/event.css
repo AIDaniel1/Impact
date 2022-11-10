@@ -457,9 +457,6 @@ main{
 }
 .grid__card img{
 width:70%;
-    height: 30vh;
-    object-fit:contain:
-        object-position: center;
     border-radius: 50%;
 }
 .card__text{
