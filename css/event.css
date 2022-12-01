@@ -193,29 +193,6 @@ cursor: pointer;
     color: transparent;
     background-color: var(--second-color);
 }
-#xbtn span,
-#xbtn span::before,
-#xbtn span::after{
-display: block;
-background-color: #fff;
-height: 2px;
-width: 2rem;
-border: 1px;
-position: relative;
-cursor: pointer;
-}
-#xbtn span::before,
-#xbtn span::after{
-    content: '';
-    position: absolute;
-}
-#xbtn span::before{
-    bottom: 6px;
-}
-
-#xbtn span::after{
-    top: 6px;
-}
 @media(min-width:758px){
 #xbtn{
     display: none;
