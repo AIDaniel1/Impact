@@ -52,9 +52,8 @@ header {
     height: 70%;
     display: flex;
     align-items: center;
-    background-color: var(--second-color);
+/*     background-color: var(--second-color); */
     border-radius: 10%;
-    
 }
 /* start animatin toggle */
 .nav-toggle:checked ~ .nav-toggle-label span{
@@ -87,7 +86,7 @@ header {
 .nav-toggle-label span::before,
 .nav-toggle-label span::after {
     display: block;
-    background: var(--text-color);
+    background: var(--second-color);
     height: 2px;
     width: 2em;
     border-radius: 2px;
