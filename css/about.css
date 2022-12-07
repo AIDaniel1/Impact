@@ -18,6 +18,9 @@
   margin: 0;
   padding: 0;
 }
+html{
+    font-family: 'Open Sans', sans-serif;
+}
 
 header {
   background: var(--background);
@@ -30,7 +33,9 @@ header {
   justify-content: space-around;
   align-items: center;
 }
-
+ .logo {
+        font-size: 1.1em;
+    }
 .nav-toggle {
   display: none;
 }
