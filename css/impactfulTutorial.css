@@ -322,7 +322,9 @@ nav a:hover {
     /* color: #00c3ff; */
     
 }
-
+.link-style:hover{
+    background-color: var(--second-color);
+}
 .subsec-one {
     justify-content: center;
     gap: 7rem;
@@ -1019,9 +1021,47 @@ ion-icon {
         transform: none;
     }
 }
-/* @media (max-width:400px){
-
-} */
+.download{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+picture img{
+    width: 250px;
+    min-height: 50px;
+}
+.text h5{
+font-size: 1.1rem;
+text-transform: capitalize;
+font-weight: bold;
+padding-bottom: 15px;
+}
+.text a {
+    display: inline-block;
+    text-decoration: none;
+    color: var(--paystack);
+    padding: 1.2rem;
+    border: 1px solid var(--paystack);
+}
+.text a:hover{
+    background-color: var(--second-color);
+    color: var(--text-color);
+}
+ @media (max-width:500px)
+ {
+.download{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.text{
+    padding: 1.1rem;
+}
+.text a{
+    margin-top: 1rem;
+}
+ }
 /* Footer styles start */
 footer{
     position: relative;
